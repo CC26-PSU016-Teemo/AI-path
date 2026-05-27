@@ -1,0 +1,20 @@
+[project]
+name = "teemo-recommendation"
+version = "0.1.0"
+description = "Two-Tower recommendation model for Teemo"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "scikit-learn",
+    "tensorflow",
+    "fastapi",
+    "uvicorn",
+    "numpy",
+    "pydantic",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel",
+]

@@ -3,15 +3,15 @@ name = "teemo-recommendation"
 version = "0.1.0"
 description = "Two-Tower recommendation model for Teemo"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = "==3.12.13"
 dependencies = [
-    "pandas",
-    "scikit-learn",
-    "tensorflow",
-    "fastapi",
-    "uvicorn",
-    "numpy",
-    "pydantic",
+    "pandas==3.0.3",
+    "scikit-learn==1.8.0",
+    "tensorflow==2.21.0",
+    "fastapi==0.136.3",
+    "uvicorn==0.48.0",
+    "numpy==2.4.6",
+    "pydantic==2.13.4",
 ]
 
 [dependency-groups]
